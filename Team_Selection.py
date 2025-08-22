@@ -1,3 +1,4 @@
+%pip install seaborn
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -215,3 +216,4 @@ def selection(batters,allrounders,bowlers,stadium):
     return selected_batters['player'],selected_all_rounders['player'],selected_bowlers['player']
     
     
+
