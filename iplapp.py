@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from Team_Selection import get_datas,selection
+from Team_Selection import get_datas
 st.set_page_config(
     page_title="IPL Team Selection",
     page_icon="https://bl-i.thgim.com/public/incoming/1ogk5e/article25940328.ece/alternates/FREE_1200/IPL-400x400jpg",
@@ -69,6 +69,7 @@ if st.button("Result"):
 
     st.write("Selected Players:")
     st.write(pd.DataFrame(all_selected_players, columns=["Selected Players"]))
+
 
 
 
